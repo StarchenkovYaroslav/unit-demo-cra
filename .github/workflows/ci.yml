@@ -20,4 +20,4 @@ jobs:
       - name: Test unit
         run: npm run test-ci
       - name: Test e2e
-        run: npx playwright install && npm run e2e-ci
+        run: npx playwright install --with-deps && npm run e2e-ci
