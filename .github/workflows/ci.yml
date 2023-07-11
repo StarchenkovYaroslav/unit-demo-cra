@@ -20,6 +20,6 @@ jobs:
       - name: Install deps
         run: npm ci
       - name: Test unit
-        run: npm test-ci
+        run: npm run test-ci
       - name: Test e2e
-        run: npx playwright install && npm e2e
+        run: npx playwright install && npm run e2e
