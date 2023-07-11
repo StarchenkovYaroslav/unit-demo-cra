@@ -1,2 +1,2 @@
 export const GithubActions = 'GithubActions'
-// test
+// update
